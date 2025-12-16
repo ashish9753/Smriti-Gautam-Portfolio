@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiDownload, FiArrowDown } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiDownload, FiArrowDown, FiInstagram } from 'react-icons/fi';
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
@@ -45,6 +45,7 @@ const Hero = () => {
 
   const socialLinks = [
     { icon: FiLinkedin, href: 'https://www.linkedin.com/in/smriti-gautam-94a8061aa/', label: 'LinkedIn' },
+    { icon: FiInstagram, href: 'https://www.instagram.com/smritigautam3110/', label: 'Instagram' },
     { icon: FiMail, href: 'mailto:smritigautam3110@gmail.com', label: 'Email' }
   ];
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiHeart, FiLinkedin, FiMail, FiArrowUp } from 'react-icons/fi';
+import { FiHeart, FiLinkedin, FiMail, FiArrowUp, FiInstagram } from 'react-icons/fi';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,6 +14,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: FiLinkedin, href: 'https://www.linkedin.com/in/smriti-gautam-94a8061aa/', label: 'LinkedIn' },
+    { icon: FiInstagram, href: 'https://www.instagram.com/smritigautam3110/', label: 'Instagram' },
     { icon: FiMail, href: 'mailto:smritigautam3110@gmail.com', label: 'Email' }
   ];
 
