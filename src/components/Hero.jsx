@@ -101,8 +101,12 @@ const Hero = () => {
         >
           <div className="w-40 h-40 mx-auto relative animate-float">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-green-500 rounded-full animate-glow-pulse shadow-dark-xl"></div>
-            <div className="absolute inset-1 bg-black rounded-full flex items-center justify-center shadow-dark-lg">
-              <span className="text-6xl font-bold text-gradient">SG</span>
+            <div className="absolute inset-1 bg-black rounded-full overflow-hidden shadow-dark-lg">
+              <img 
+                src="./ProfilePhoto.jpeg" 
+                alt="Smriti Gautam Profile Photo" 
+                className="w-full h-full object-cover rounded-full"
+              />
             </div>
           </div>
         </motion.div>
