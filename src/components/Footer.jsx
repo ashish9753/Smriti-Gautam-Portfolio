@@ -129,9 +129,6 @@ const Footer = () => {
               <p className="text-gray-400 text-sm">
                 © {currentYear} Smriti Gautam. All rights reserved.
               </p>
-              <p className="text-gray-500 text-xs mt-1 flex items-center justify-center md:justify-start">
-                Made with <FiHeart className="mx-1 text-red-500" size={12} /> using React & Tailwind CSS
-              </p>
             </div>
 
             <motion.button

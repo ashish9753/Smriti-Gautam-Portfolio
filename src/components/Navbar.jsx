@@ -99,7 +99,7 @@ const Navbar = () => {
             className="cursor-pointer"
             onClick={() => scrollToSection('home')}
           >
-            <span className="text-2xl font-bold text-gradient">Smriti.</span>
+            <span className="text-2xl font-bold text-gradient">Smriti Gautam</span>
           </motion.div>
 
           <div className="hidden md:flex items-center space-x-1">
